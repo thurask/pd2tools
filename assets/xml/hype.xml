@@ -1,0 +1,62 @@
+<repo>
+	<milestone>
+		<name>Side Jobs</name>
+		<desc>The contractors of Crime.net provide you with side jobs, giving you additional objectives during heists.</desc>
+		<value>200000</value>
+		<GroupDataModelFuckingSucks>0200000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>SWAT Van Turret</name>
+		<desc>SWAT units are trying new ways to beat the crime wave that has been growing rapidly the past years.</desc>
+		<value>300000</value>
+		<GroupDataModelFuckingSucks>0300000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>The Butcher Mod Pack</name>
+		<desc>There’s a new sheriff in town and she’s got a shipment of new weapon modifications ready to be used by the career criminals of D.C.</desc>
+		<value>500000</value>
+		<GroupDataModelFuckingSucks>0500000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>Heist Updates</name>
+		<desc>The contractors of Crime.net provide you with side jobs, giving you additional objectives during heists.</desc>
+		<value>700000</value>
+		<GroupDataModelFuckingSucks>0700000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>The Car Shop Heist</name>
+		<desc>It’s time to steal some very good looking cars as fast as possible without anyone noticing.</desc>
+		<value>900000</value>
+		<GroupDataModelFuckingSucks>0900000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>Golden GRIN Casino Preview</name>
+		<desc>We will do a preview where we talk about the last job of the Dentist, and what makes it special.</desc>
+		<value>1000000</value>
+		<GroupDataModelFuckingSucks>1000000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>Bonnie Character Pack</name>
+		<desc>Bonnie is out of jail and wants to get back into her old trade: robbing banks.</desc>
+		<value>1200000</value>
+		<GroupDataModelFuckingSucks>1200000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>10 Heisters flown to L.A.</name>
+		<desc>We will fly 10 heisters to Los Angeles during the summer to spend time with us in the OVERKILL crew.</desc>
+		<value>1400000</value>
+		<GroupDataModelFuckingSucks>1400000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>Hoxton Revenge Heist</name>
+		<desc>You saved Hoxton from prison and raided the FBI headquarters. Now it’s time to find out who framed him.</desc>
+		<value>1600000</value>
+		<GroupDataModelFuckingSucks>1600000</GroupDataModelFuckingSucks>
+	</milestone>
+	<milestone>
+		<name>PAYDAYCON L.A.</name>
+		<desc>For the first time ever, we host a PAYDAY convention in Los Angeles.</desc>
+		<value>2000000</value>
+		<GroupDataModelFuckingSucks>2000000</GroupDataModelFuckingSucks>
+	</milestone>
+</repo>
