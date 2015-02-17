@@ -29,8 +29,8 @@ Page {
                     }
                     Container {
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                     }
                     Container {
                         id: engine12
@@ -38,8 +38,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 2 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 399) ? Color.DarkCyan : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 3
                         property int pressure: 510
                         property int element: 1
@@ -55,8 +55,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 1) ? Color.DarkGreen : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 3
                         property int pressure: 400
                         property int element: 2
@@ -72,8 +72,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 2) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 401) ? Color.DarkYellow : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 3
                         property int pressure: 275
                         property int element: 7
@@ -90,8 +90,8 @@ Page {
                     }
                     Container {
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                     }
                     Container {
                         id: engine7
@@ -99,8 +99,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 401) ? Color.DarkGreen : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 3
                         property int pressure: 375
                         property int element: 2
@@ -116,8 +116,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 2 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 401) ? Color.DarkCyan : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 3
                         property int pressure: 375
                         property int element: 1
@@ -133,8 +133,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 2) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 399) ? Color.DarkYellow : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 3
                         property int pressure: 425
                         property int element: 7
@@ -154,8 +154,8 @@ Page {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -167,8 +167,8 @@ Page {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -180,8 +180,8 @@ Page {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -193,8 +193,8 @@ Page {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -208,8 +208,8 @@ Page {
                     }
                     Container {
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                     }
                     Container {
                         id: engine2
@@ -217,8 +217,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 2 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 3) && (pressuregroup.selectedValue != 399) ? Color.DarkCyan : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 1
                         property int pressure: 500
                         property int element: 1
@@ -234,8 +234,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 2) && (tubegroup.selectedValue != 3 && tubegroup.selectedValue != 1) ? Color.DarkYellow : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 2
                         property int pressure: 400
                         property int element: 7
@@ -251,8 +251,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 3 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 399) ? Color.DarkGreen : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 2
                         property int pressure: 450
                         property int element: 2
@@ -269,16 +269,16 @@ Page {
                     }
                     Container {
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                     }
                     Container {
                         layout: DockLayout {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -290,8 +290,8 @@ Page {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -303,8 +303,8 @@ Page {
                         
                         }
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         Label {
                             horizontalAlignment: HorizontalAlignment.Center
                             verticalAlignment: VerticalAlignment.Center
@@ -318,8 +318,8 @@ Page {
                     }
                     Container {
                         background: Color.Transparent
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                     }
                     Container {
                         id: engine1
@@ -327,8 +327,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 2) && (tubegroup.selectedValue != 2 && tubegroup.selectedValue != 3) && (pressuregroup.selectedValue != 401) ? Color.DarkYellow : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 1
                         property int pressure: 375
                         property int element: 7
@@ -344,8 +344,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 1 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 3 && tubegroup.selectedValue != 1) ? Color.DarkGreen : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 2
                         property int pressure: 400
                         property int element: 2
@@ -361,8 +361,8 @@ Page {
                         
                         }
                         background: ((elementgroup.selectedValue != 2 && elementgroup.selectedValue != 7) && (tubegroup.selectedValue != 3 && tubegroup.selectedValue != 1) && (pressuregroup.selectedValue != 401) ? Color.DarkCyan : Color.Transparent)
-                        preferredHeight: 100
-                        preferredWidth: 100
+                        preferredHeight: ui.du(12)
+                        preferredWidth: ui.du(12)
                         property int tubes: 2
                         property int pressure: 300
                         property int element: 1

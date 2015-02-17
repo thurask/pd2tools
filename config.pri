@@ -72,6 +72,9 @@ simulator {
 
 config_pri_assets {
     OTHER_FILES += \
+        $$quote($$BASEDIR/.git/objects/pack/pack-e660a86aa65434d2f7324238046ec0f1058fe50f.idx) \
+        $$quote($$BASEDIR/.git/objects/pack/pack-e660a86aa65434d2f7324238046ec0f1058fe50f.pack) \
+        $$quote($$BASEDIR/.git/refs/tags/1.0.0) \
         $$quote($$BASEDIR/assets/BigOilCalc.qml) \
         $$quote($$BASEDIR/assets/HelpSheet.qml) \
         $$quote($$BASEDIR/assets/HypeFuel.qml) \
@@ -96,6 +99,8 @@ config_pri_source_group1 {
         $$quote($$BASEDIR/src/applicationui.hpp)
 }
 
+INCLUDEPATH += $$quote($$BASEDIR/src)
+
 CONFIG += precompile_header
 
 PRECOMPILED_HEADER = $$quote($$BASEDIR/precompiled.h)
@@ -107,15 +112,63 @@ lupdate_inclusion {
         $$quote($$BASEDIR/../src/*.cc) \
         $$quote($$BASEDIR/../src/*.cpp) \
         $$quote($$BASEDIR/../src/*.cxx) \
+        $$quote($$BASEDIR/..//*.qml) \
+        $$quote($$BASEDIR/..//*.js) \
+        $$quote($$BASEDIR/..//*.qs) \
+        $$quote($$BASEDIR/../.git/*.qml) \
+        $$quote($$BASEDIR/../.git/*.js) \
+        $$quote($$BASEDIR/../.git/*.qs) \
+        $$quote($$BASEDIR/../.git/branches/*.qml) \
+        $$quote($$BASEDIR/../.git/branches/*.js) \
+        $$quote($$BASEDIR/../.git/branches/*.qs) \
+        $$quote($$BASEDIR/../.git/hooks/*.qml) \
+        $$quote($$BASEDIR/../.git/hooks/*.js) \
+        $$quote($$BASEDIR/../.git/hooks/*.qs) \
+        $$quote($$BASEDIR/../.git/logs/*.qml) \
+        $$quote($$BASEDIR/../.git/logs/*.js) \
+        $$quote($$BASEDIR/../.git/logs/*.qs) \
+        $$quote($$BASEDIR/../.git/logs/refs/*.qml) \
+        $$quote($$BASEDIR/../.git/logs/refs/*.js) \
+        $$quote($$BASEDIR/../.git/logs/refs/*.qs) \
+        $$quote($$BASEDIR/../.git/logs/refs/heads/*.qml) \
+        $$quote($$BASEDIR/../.git/logs/refs/heads/*.js) \
+        $$quote($$BASEDIR/../.git/logs/refs/heads/*.qs) \
+        $$quote($$BASEDIR/../.git/logs/refs/remotes/*.qml) \
+        $$quote($$BASEDIR/../.git/logs/refs/remotes/*.js) \
+        $$quote($$BASEDIR/../.git/logs/refs/remotes/*.qs) \
+        $$quote($$BASEDIR/../.git/logs/refs/remotes/origin/*.qml) \
+        $$quote($$BASEDIR/../.git/logs/refs/remotes/origin/*.js) \
+        $$quote($$BASEDIR/../.git/logs/refs/remotes/origin/*.qs) \
+        $$quote($$BASEDIR/../.git/objects/*.qml) \
+        $$quote($$BASEDIR/../.git/objects/*.js) \
+        $$quote($$BASEDIR/../.git/objects/*.qs) \
+        $$quote($$BASEDIR/../.git/objects/info/*.qml) \
+        $$quote($$BASEDIR/../.git/objects/info/*.js) \
+        $$quote($$BASEDIR/../.git/objects/info/*.qs) \
+        $$quote($$BASEDIR/../.git/objects/pack/*.qml) \
+        $$quote($$BASEDIR/../.git/objects/pack/*.js) \
+        $$quote($$BASEDIR/../.git/objects/pack/*.qs) \
+        $$quote($$BASEDIR/../.git/refs/*.qml) \
+        $$quote($$BASEDIR/../.git/refs/*.js) \
+        $$quote($$BASEDIR/../.git/refs/*.qs) \
+        $$quote($$BASEDIR/../.git/refs/heads/*.qml) \
+        $$quote($$BASEDIR/../.git/refs/heads/*.js) \
+        $$quote($$BASEDIR/../.git/refs/heads/*.qs) \
+        $$quote($$BASEDIR/../.git/refs/remotes/*.qml) \
+        $$quote($$BASEDIR/../.git/refs/remotes/*.js) \
+        $$quote($$BASEDIR/../.git/refs/remotes/*.qs) \
+        $$quote($$BASEDIR/../.git/refs/remotes/origin/*.qml) \
+        $$quote($$BASEDIR/../.git/refs/remotes/origin/*.js) \
+        $$quote($$BASEDIR/../.git/refs/remotes/origin/*.qs) \
+        $$quote($$BASEDIR/../.git/refs/tags/*.qml) \
+        $$quote($$BASEDIR/../.git/refs/tags/*.js) \
+        $$quote($$BASEDIR/../.git/refs/tags/*.qs) \
         $$quote($$BASEDIR/../assets/*.qml) \
         $$quote($$BASEDIR/../assets/*.js) \
         $$quote($$BASEDIR/../assets/*.qs) \
         $$quote($$BASEDIR/../assets/images/*.qml) \
         $$quote($$BASEDIR/../assets/images/*.js) \
         $$quote($$BASEDIR/../assets/images/*.qs) \
-        $$quote($$BASEDIR/../assets/images/bigoil/*.qml) \
-        $$quote($$BASEDIR/../assets/images/bigoil/*.js) \
-        $$quote($$BASEDIR/../assets/images/bigoil/*.qs) \
         $$quote($$BASEDIR/../assets/images/hype/*.qml) \
         $$quote($$BASEDIR/../assets/images/hype/*.js) \
         $$quote($$BASEDIR/../assets/images/hype/*.qs) \
